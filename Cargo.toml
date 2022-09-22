@@ -1,0 +1,10 @@
+[package]
+name = "stocki"
+version = "0.1.0"
+edition = "2021"
+license-file = "LICENSE"
+description = "Make tiny web services"
+repository = "https://github.com/JonnyOrman/stocki/"
+readme = "README.md"
+
+[dependencies]
