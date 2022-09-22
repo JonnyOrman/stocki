@@ -10,15 +10,18 @@ Create a new project:
 cargo new stocki-example  
 ```
 
-cd into it and install `stocki`:
+cd into the new project directory:
 ```
 cd stocki-example
-cargo install stocki
+```
+
+Add the following under `[dependencies]` in `Cargo.toml` :
+```
+stocki = "0.1.0"
 ```
 
 Replace the contents of `src/main.rs` with this:
 ```
-fn main() {
 use stocki::{
     run,
     requests::{
